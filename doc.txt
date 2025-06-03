@@ -1,0 +1,11 @@
+Pontos a focar:
+
+- Visual quase pronto (ok)
+- Responsividade quase pronto tbm (ok)
+- Logo depois siderbar
+
+
+Pontos a fazer:
+
+- Melhoria de validação no back (usando o firebase admin)
+- Fazer conexão no banco de dados e salvar o nome do usuário e email

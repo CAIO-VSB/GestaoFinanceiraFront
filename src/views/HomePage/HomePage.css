@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.home__label-itens {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.home__label-icons {
+    font-size: 1.6rem;
+}
+
+.home__itens_active {
+    box-shadow: inset 0.1875rem 0 0 #37474F;
+}
+
+.home__dados-user {
+    background-color: #37474F;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding-top: 2rem;
+}
+
+.home__img-user:active {
+    transform: scale(1.4);
+}
+
+.home__name-user {
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.90rem;
+}
+
+.home__bnt-more {
+    position: absolute;
+    right: 0;
+}
+
+.home__q-list-more-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__hover-btn-more-menu-main:hover {
+    background-color: #37474f46;
+    font-family: "Poppins", sans-serif;
+}
+
+.home__hover-btn-more-menu-main {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
